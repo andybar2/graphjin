@@ -1,7 +1,7 @@
 package serv
 
 import (
-	"github.com/dosco/graphjin/internal/secrets"
+	"github.com/andybar2/graphjin/internal/secrets"
 	"github.com/spf13/afero"
 )
 

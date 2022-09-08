@@ -9,7 +9,7 @@
 		"database/sql"
 		"fmt"
 		"time"
-		"github.com/dosco/graphjin/core"
+		"github.com/andybar2/graphjin/core"
 		_ "github.com/jackc/pgx/v4/stdlib"
 	)
 
@@ -46,8 +46,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/internal/util"
+	"github.com/andybar2/graphjin/core"
+	"github.com/andybar2/graphjin/internal/util"
 	"github.com/spf13/afero"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"

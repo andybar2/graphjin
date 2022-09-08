@@ -6,10 +6,10 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
-	"github.com/dosco/graphjin/core/internal/util"
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/core/internal/sdata"
+	"github.com/andybar2/graphjin/core/internal/util"
 )
 
 func (co *Compiler) compileMutation(

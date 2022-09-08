@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dosco/graphjin/internal/common"
+	"github.com/andybar2/graphjin/internal/common"
 )
 
 func adminDeployHandler(s1 *Service) http.Handler {

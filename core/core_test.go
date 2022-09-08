@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/andybar2/graphjin/core"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 )

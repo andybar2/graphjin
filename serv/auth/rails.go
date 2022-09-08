@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/andybar2/graphjin/core"
+	"github.com/andybar2/graphjin/serv/internal/rails"
 	"github.com/bradfitz/gomemcache/memcache"
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/serv/internal/rails"
 	"github.com/gomodule/redigo/redis"
 )
 

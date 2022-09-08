@@ -10,10 +10,10 @@ import (
 	"strconv"
 
 	cuejson "cuelang.org/go/encoding/json"
+	"github.com/andybar2/graphjin/core/internal/psql"
+	"github.com/andybar2/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/core/internal/sdata"
 	"github.com/avast/retry-go"
-	"github.com/dosco/graphjin/core/internal/psql"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
 	"github.com/go-playground/validator/v10"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"

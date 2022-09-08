@@ -1,4 +1,4 @@
-//#nosec G404
+// #nosec G404
 package core_test
 
 import (
@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/andybar2/graphjin/core"
 	"golang.org/x/sync/errgroup"
 )
 

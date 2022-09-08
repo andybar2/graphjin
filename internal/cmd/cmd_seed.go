@@ -14,9 +14,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/andybar2/graphjin/core"
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/dop251/goja"
-	"github.com/dosco/graphjin/core"
 	"github.com/gosimple/slug"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/stdlib"
@@ -332,7 +332,7 @@ func importCSV(table, filename string, sep string, db *sql.DB) int64 {
 	return n
 }
 
-//nolint: errcheck
+// nolint: errcheck
 func logFunc(args ...interface{}) {
 	for _, arg := range args {
 		if _, ok := arg.(map[string]interface{}); ok {
@@ -367,7 +367,7 @@ func getRandValue(values []string) string {
 	return values[rand.Intn(len(values))]
 }
 
-//nolint: errcheck
+// nolint: errcheck
 func setFakeFuncs(f *goja.Object) {
 	gofakeit.Seed(0)
 
@@ -532,7 +532,7 @@ func setFakeFuncs(f *goja.Object) {
 	f.Set("numerify", gofakeit.Numerify)
 }
 
-//nolint: errcheck
+// nolint: errcheck
 func setUtilFuncs(f *goja.Object) {
 	// Slugs
 	f.Set("make_slug", slug.Make)

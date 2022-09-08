@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/qcode"
 	"github.com/avast/retry-go"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/qcode"
 	"github.com/rs/xid"
 )
 

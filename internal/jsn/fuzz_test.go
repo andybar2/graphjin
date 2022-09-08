@@ -1,3 +1,4 @@
+//go:build gofuzz
 // +build gofuzz
 
 package jsn_test
@@ -5,7 +6,7 @@ package jsn_test
 import (
 	"testing"
 
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/andybar2/graphjin/internal/jsn"
 )
 
 var ret int

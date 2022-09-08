@@ -1,6 +1,5 @@
 base: ubuntu:16.04
 targets:
-  
   - name: qcode
     language: go
     version: "1.11"
@@ -10,10 +9,10 @@ targets:
     harness:
       function: FuzzerEntrypoint
       # package defines where to import FuzzerEntrypoint from
-      package: github.com/dosco/graphjin/qcode
+      package: github.com/andybar2/graphjin/qcode
       # the repository will be cloned to
       # $GOPATH/src/github.com/fuzzbuzz/tutorial
-      checkout: github.com/dosco/graphjin
+      checkout: github.com/andybar2/graphjin
 
   - name: jsn
     language: go
@@ -24,7 +23,7 @@ targets:
     harness:
       function: FuzzerEntrypoint
       # package defines where to import FuzzerEntrypoint from
-      package: github.com/dosco/graphjin/jsn
+      package: github.com/andybar2/graphjin/jsn
       # the repository will be cloned to
       # $GOPATH/src/github.com/fuzzbuzz/tutorial
-      checkout: github.com/dosco/graphjin
+      checkout: github.com/andybar2/graphjin

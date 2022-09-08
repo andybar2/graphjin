@@ -8,7 +8,7 @@ import (
 	"net/http/httputil"
 	"strings"
 
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/andybar2/graphjin/internal/jsn"
 	"github.com/mitchellh/mapstructure"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 )

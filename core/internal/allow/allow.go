@@ -14,9 +14,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/internal/jsn"
 	"github.com/chirino/graphql/schema"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/internal/jsn"
 	"github.com/spf13/afero"
 )
 

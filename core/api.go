@@ -9,7 +9,7 @@
 		"database/sql"
 		"fmt"
 		"time"
-		"github.com/dosco/graphjin/core"
+		"github.com/andybar2/graphjin/core"
 		_ "github.com/jackc/pgx/v4/stdlib"
 	)
 
@@ -57,12 +57,12 @@ import (
 
 	"github.com/chirino/graphql"
 	"github.com/dop251/goja"
-	"github.com/dosco/graphjin/core/internal/allow"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/psql"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/core/internal/sdata"
-	"github.com/dosco/graphjin/core/internal/util"
+	"github.com/andybar2/graphjin/core/internal/allow"
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/psql"
+	"github.com/andybar2/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/core/internal/sdata"
+	"github.com/andybar2/graphjin/core/internal/util"
 	"github.com/spf13/afero"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/trace"

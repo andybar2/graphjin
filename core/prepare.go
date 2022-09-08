@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dosco/graphjin/core/internal/allow"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/core/internal/allow"
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/qcode"
 )
 
 type queryReq struct {

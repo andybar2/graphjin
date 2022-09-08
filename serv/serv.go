@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dosco/graphjin/serv/auth"
+	"github.com/andybar2/graphjin/serv/auth"
 	"github.com/go-chi/chi"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

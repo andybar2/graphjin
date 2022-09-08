@@ -10,7 +10,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/andybar2/graphjin/core"
 )
 
 func Example_query() {

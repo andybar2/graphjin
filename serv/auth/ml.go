@@ -1,3 +1,4 @@
+//go:build magiclink
 // +build magiclink
 
 package auth
@@ -14,7 +15,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/dosco/graphjin/core"
+	"github.com/andybar2/graphjin/core"
 	jwt "github.com/golang-jwt/jwt"
 	"github.com/magiclabs/magic-admin-go"
 	"github.com/magiclabs/magic-admin-go/client"

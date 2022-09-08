@@ -11,10 +11,10 @@ import (
 
 	"cuelang.org/go/cue"
 	"cuelang.org/go/cue/cuecontext"
-	"github.com/dosco/graphjin/core/internal/allow"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/sdata"
-	"github.com/dosco/graphjin/core/internal/util"
+	"github.com/andybar2/graphjin/core/internal/allow"
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/sdata"
+	"github.com/andybar2/graphjin/core/internal/util"
 	"github.com/gobuffalo/flect"
 )
 

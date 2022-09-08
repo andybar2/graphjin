@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/dosco/graphjin/core/internal/crypto"
-	"github.com/dosco/graphjin/core/internal/qcode"
-	"github.com/dosco/graphjin/internal/jsn"
+	"github.com/andybar2/graphjin/core/internal/crypto"
+	"github.com/andybar2/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/internal/jsn"
 )
 
 type cursors struct {

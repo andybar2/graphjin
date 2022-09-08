@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/andybar2/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/qcode"
 	"github.com/dop251/goja"
 	"github.com/dop251/goja/parser"
-	"github.com/dosco/graphjin/core/internal/graph"
-	"github.com/dosco/graphjin/core/internal/qcode"
 	babel "github.com/jvatic/goja-babel"
 )
 

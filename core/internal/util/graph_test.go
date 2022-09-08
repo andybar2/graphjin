@@ -3,11 +3,11 @@ package util_test
 import (
 	"testing"
 
-	"github.com/dosco/graphjin/core/internal/util"
+	"github.com/andybar2/graphjin/core/internal/util"
 	"github.com/stretchr/testify/assert"
 )
 
-//nolint: errcheck
+// nolint: errcheck
 func TestGraph(t *testing.T) {
 	g := util.NewGraph()
 

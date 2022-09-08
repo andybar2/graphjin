@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dosco/graphjin/core"
-	"github.com/dosco/graphjin/serv/auth"
-	"github.com/dosco/graphjin/serv/internal/etags"
+	"github.com/andybar2/graphjin/core"
+	"github.com/andybar2/graphjin/serv/auth"
+	"github.com/andybar2/graphjin/serv/internal/etags"
 	"github.com/gorilla/websocket"
 	"github.com/rs/cors"
 
@@ -369,7 +369,7 @@ func (r gqlReq) apqEnabled() bool {
 	return r.Ext.Persisted.Sha256Hash != ""
 }
 
-//nolint: errcheck
+// nolint: errcheck
 func renderErr(w http.ResponseWriter, err error) {
 	if err == errUnauthorized {
 		w.WriteHeader(http.StatusUnauthorized)

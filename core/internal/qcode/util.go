@@ -1,7 +1,7 @@
 package qcode
 
 import (
-	"github.com/dosco/graphjin/core/internal/graph"
+	"github.com/andybar2/graphjin/core/internal/graph"
 )
 
 func GetQType(t graph.ParserType) QType {

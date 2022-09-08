@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dosco/graphjin/core/internal/psql"
-	"github.com/dosco/graphjin/core/internal/qcode"
+	"github.com/andybar2/graphjin/core/internal/psql"
+	"github.com/andybar2/graphjin/core/internal/qcode"
 	"github.com/go-playground/validator/v10"
 )
 
