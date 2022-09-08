@@ -1,4 +1,4 @@
-module github.com/dosco/graphjin
+module github.com/andybar2/graphjin
 
 require (
 	cuelang.org/go v0.4.3
